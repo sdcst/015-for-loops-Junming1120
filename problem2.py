@@ -37,3 +37,11 @@ example:
 Enter a number: -4
 Invalid input
 """
+x = int(input("enter a number"))
+y = 1
+for i in range(1, x+1):
+    y = y * i 
+else:
+    print(f"{x}! is {y}")
+
+
